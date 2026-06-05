@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/khatr/OneDrive/Desktop/willove/mlruns/1/models/m-3301b783d656461db8f3627c4f388b13/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-3301b783d656461db8f3627c4f388b13
+model_size_bytes: 177813
+model_uuid: m-3301b783d656461db8f3627c4f388b13
+prompts: null
+run_id: 26eae65aacd14f2290829ce4cf82d5d1
+utc_time_created: '2026-06-05 17:17:03.673210'

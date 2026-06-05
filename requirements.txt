@@ -6,3 +6,6 @@ pandas
 numpy
 pydantic
 python-multipart
+mlflow
+evidently
+loguru
